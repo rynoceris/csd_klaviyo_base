@@ -2,7 +2,7 @@
 require_once('KlaviyoHelper.php');
 
 // Initialize with API key and options
-$klaviyo = new KlaviyoHelper('pk_8db019cd000955ae7292ad684ceae904d8', [
+$klaviyo = new KlaviyoHelper('pk_', [
 	'debug' => true,
 	'logFile' => __DIR__ . '/klaviyo_debug.log',
 	'cacheEnabled' => true,
@@ -151,7 +151,7 @@ function trackMultipleUserActions($userEmails, $action) {
 
 // Call with many users - rate limiting will be applied automatically
 $users = ['user1@example.com', 'user2@example.com', /* many more users */];
-trackMultipleUserActions($users, 'Login');iyo = new KlaviyoHelper('pk_8db019cd000955ae7292ad684ceae904d8', [
+trackMultipleUserActions($users, 'Login');iyo = new KlaviyoHelper('pk_', [
 	'debug' => true,
 	'logFile' => __DIR__ . '/klaviyo_debug.log',
 	'cacheEnabled' => true,
