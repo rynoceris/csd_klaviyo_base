@@ -4,7 +4,7 @@ use KlaviyoAPI\KlaviyoAPI;
 
 // Initialize the Klaviyo client
 $klaviyo = new KlaviyoAPI(
-	'',  // Replace with your actual API key
+	'pk_',  // Replace with your actual API key
 	num_retries: 3
 );
 
